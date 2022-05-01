@@ -152,16 +152,12 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
   DEFAULT_LANG: (
-    # ("/pages/", "Pages"),
-    # ("/sections/", "Sections"),
-    # ("/tags/", "Tags"),
-    # ("/posts/", "Posts"),
      (
       (
         ('/categories/submissions', 'Data Submissions'),
         ('/categories/checks', 'Data Submissions Checks'),
         ('/categories/plots', 'Plots'),
-        ('/categories/elaborations', 'Elaborations'),
+        # ('/categories/elaborations', 'Elaborations'),
       ),
       'Contents'
     ),
