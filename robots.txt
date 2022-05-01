@@ -1,0 +1,4 @@
+Sitemap: https://precision-sm-test.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: precision-sm-test.github.io
