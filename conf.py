@@ -982,7 +982,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # Check with list(pygments.styles.get_all_styles()) in an interpreter.
 #
 # CODE_COLOR_SCHEME = 'default'
-CODE_COLOR_SCHEME = "friendly"
+CODE_COLOR_SCHEME = "default"
 
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
