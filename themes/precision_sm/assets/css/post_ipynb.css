@@ -6,13 +6,34 @@ Nikola jupyter notebook customization
 
 */
 
+
+/*
+  refinements for jupyter nb tables in output cells
+*/
+
 /* code and output in Jupiter notebooks */
 
 .rendered_html {
   font-size: 87.5%;
 }
 
-div.output_subarea {
+.rendered_html tbody tr:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.rendered_html tbody tr:hover{
+  color:#212529;
+  background-color:rgba(0, 0, 0, 0.10);
+}
+
+.rendered_html thead {
+  border-top: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.rendered_html tbody {
+  border-bottom: 1px solid #a0a0a0;
+}div.output_subarea {
   margin: 0px 4px 2px 0px;
   border: 1px solid #a0a0a0;
   /* background-color: rgba(0, 0, 0, 0.05); */
