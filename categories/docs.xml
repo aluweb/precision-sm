@@ -1,5 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PrecisionSM (Posts about docs)</title><link>https://precision-sm-test.github.io/</link><description></description><atom:link href="https://precision-sm-test.github.io/categories/docs.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2022 &lt;a href="mailto:alusiani at gmail.com"&gt;PrecisionSM Group&lt;/a&gt; </copyright><lastBuildDate>Sun, 01 May 2022 21:49:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Make Root plot using two HEPData submissions</title><link>https://precision-sm-test.github.io/posts/hepdata-example-root-plot/</link><dc:creator>PrecisionSM Group</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PrecisionSM (Posts about docs)</title><link>https://aluweb.github.io/precision-sm/</link><description></description><atom:link href="https://aluweb.github.io/precision-sm/categories/docs.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2022 &lt;a href="mailto:alusiani at gmail.com"&gt;PrecisionSM Group&lt;/a&gt; </copyright><lastBuildDate>Sat, 07 May 2022 20:20:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><link>https://aluweb.github.io/precision-sm/posts/a/</link><dc:creator>PrecisionSM Group</dc:creator><description>&lt;h2&gt;HEPData submissions cured by PrecisionSM&lt;/h2&gt;
+&lt;h3&gt;:math:&lt;code&gt;e^+e^- \to \pi^+\pi^- (\gamma)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Novosibirsk Experiments
+&lt;del&gt;~&lt;/del&gt;&lt;del&gt;~&lt;/del&gt;&lt;del&gt;~&lt;/del&gt;&lt;del&gt;~&lt;/del&gt;~~~&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Investigation of the ϱ-meson resonance with electron-positron
+   colliding beams&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Phys.Lett.B 25 (1967) 433-435, 1967.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://www.hepdata.net/record/ins1392895&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Investigation of the rho-meson resonance with electron-positron
+   colliding beams&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Yad.Fiz. 9 (1969) 114-119, 1969.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://www.hepdata.net/record/18687&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Electromagnetic Pion Form-Factor in the Timelike Region&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://www.hepdata.net/record/6886&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Measurement of the pion form-factor in the range 1.04-GeV to 1.38-GeV
+   with the CMD-2 detector&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://www.hepdata.net/record/41807&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pion Form-factor Measurement in the Reaction e+e−→π+π− for Energies
+   Within the Range From 0.4-{GeV} to 0.46-{GeV}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://www.hepdata.net/record/18823&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Measurement of the e+e−→π+π− process cross section with the SND
+   detector at the VEPP-2000 collider in the energy region 0.525&amp;lt;s&amp;lt;0.883
+   GeV&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://www.hepdata.net/record/114983&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>HEPData</category><guid>https://aluweb.github.io/precision-sm/posts/a/</guid><pubDate>Sat, 30 Apr 2022 00:00:00 GMT</pubDate></item><item><title>Make Root plot using two HEPData submissions</title><link>https://aluweb.github.io/precision-sm/posts/hepdata-example-root-plot/</link><dc:creator>PrecisionSM Group</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://precision-sm-test.github.io/posts/hepdata-example-root-plot/"&gt;Read more…&lt;/a&gt; (11 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>https://precision-sm-test.github.io/posts/hepdata-example-root-plot/</guid><pubDate>Sat, 21 Nov 2020 00:05:23 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://aluweb.github.io/precision-sm/posts/hepdata-example-root-plot/"&gt;Read more…&lt;/a&gt; (11 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>https://aluweb.github.io/precision-sm/posts/hepdata-example-root-plot/</guid><pubDate>Sat, 21 Nov 2020 00:05:23 GMT</pubDate></item><item><title>asciidoc test</title><link>https://aluweb.github.io/precision-sm/posts/asciidoc-test/</link><dc:creator>PrecisionSM Group</dc:creator><description>&lt;table class="tableblock frame-none grid-none" style="
+width:100%;
+"&gt;
+&lt;col style="width:8%;"&gt;
+&lt;col style="width:8%;"&gt;
+&lt;col style="width:83%;"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;div&gt;&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://aluweb.github.io/precision-sm/images/colibri-plain.svg" alt="/images/colibri-plain.svg"&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;div&gt;&lt;table class="tableblock frame-all grid-all" style="
+width:100%;
+"&gt;
+&lt;col style="width:50%;"&gt;
+&lt;col style="width:50%;"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;email-name at email domain&lt;br&gt;
+Institution&lt;br&gt;
+address location&lt;br&gt;
+city, district, country&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;email-name2 at email domain2&lt;br&gt;
+Institution2&lt;br&gt;
+address location2&lt;br&gt;
+city2, district, country&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+   &lt;div style="clear: left;"&gt;&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h3 id="_level_1"&gt;Level 1&lt;/h3&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Text.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h4 id="_level_2"&gt;Level 2&lt;/h4&gt;
+&lt;div class="sect3"&gt;
+&lt;h5 id="_level_3"&gt;Level 3&lt;/h5&gt;
+&lt;div class="sect4"&gt;
+&lt;h6 id="_level_4"&gt;Level 4&lt;/h6&gt;
+&lt;div class="ulist"&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+West wood mazess
+&lt;/p&gt;
+&lt;div class="ulist"&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Maze heart
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Maze heart 2
+&lt;/p&gt;
+&lt;div class="ulist"&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Reflection pool
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Secret exit
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Untracked file in git repository
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;inline math \( \alpha = \beta \) after&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;display math
+\[
+  C = \alpha + \beta Y^{ \gamma \delta } + \epsilon \frac{\alpha}{beta}
+\]
+after&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;&lt;span class="monospaced"&gt;:math:&lt;/span&gt; :math:&lt;span class="monospaced"&gt;\frac{\sum_{t=0}^{N}f(t,k) }{N}&lt;/span&gt; after&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;&lt;span class="monospaced"&gt;:latexmath:&lt;/span&gt; $C = \alpha + \beta Y^{\gamma} + \epsilon$&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;&lt;span class="monospaced"&gt;:asciimath:&lt;/span&gt; `x/x={(1,if x!=0),(text{undefined},if x=0):}`&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;inline math dollar $\alpha=\beta\gamma$ after&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;inline &lt;span class="monospaced"&gt;\\\(\\\)&lt;/span&gt; with displaystyle \( \displaystyle\frac{alpha}{beta} \) after&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;&lt;span class="monospaced"&gt;:latexmath:&lt;/span&gt; inline \displaystyle dollar $\displaystyle\frac{\alpha}{\beta}$ after&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;display math dollar dollar \alpha=\beta after&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;display math dollar dollar with newlines
+
+  a = \frac{\alpha}{\beta}&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;test path handlers:
+&lt;a href="https://aluweb.github.io/precision-sm/posts/asciidoc-test/"&gt;go to myself&lt;/a&gt;,
+&lt;a href="https://aluweb.github.io/precision-sm/tags/babar/"&gt;tag BaBar&lt;/a&gt;,&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;latexmath block&lt;/p&gt;&lt;/div&gt;
+&lt;div class="mathblock"&gt;
+&lt;div class="content"&gt;
+\[\frac{\partial V}{\partial t}
++ \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2}
++ r S \frac{\partial V}{\partial S}
+- r V = 0\]
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://aluweb.github.io/precision-sm/posts/asciidoc-test/</guid><pubDate>Sat, 09 Sep 2017 21:39:43 GMT</pubDate></item></channel></rss>

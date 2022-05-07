@@ -6,47 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://precision-sm-test.github.io/categories/checks.xml</loc>
-  <lastmod>2022-05-01T21:49:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/categories/checks.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/categories/docs.xml</loc>
-  <lastmod>2022-05-01T21:49:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/categories/docs.xml</loc>
+  <lastmod>2022-05-07T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/categories/notes.xml</loc>
-  <lastmod>2022-05-01T21:49:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/categories/notes.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/categories/plots.xml</loc>
-  <lastmod>2022-05-01T22:30:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/categories/plots.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/categories/submissions.xml</loc>
-  <lastmod>2022-05-01T21:49:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/categories/submissions.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/galleries/rss.xml</loc>
-  <lastmod>2022-05-01T23:54:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/galleries/rss.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/rss.xml</loc>
-  <lastmod>2022-05-01T22:30:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/rss.xml</loc>
+  <lastmod>2022-05-07T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/sitemap.xml</loc>
-  <lastmod>2022-05-04T13:04:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/sitemap.xml</loc>
+  <lastmod>2022-05-07T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/tags/aleph.xml</loc>
-  <lastmod>2022-05-01T21:49:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/tags/aleph.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/tags/babar.xml</loc>
-  <lastmod>2022-05-01T22:30:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/tags/babar.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://precision-sm-test.github.io/tags/hepdata.xml</loc>
-  <lastmod>2022-05-01T21:49:00Z</lastmod>
+  <loc>https://aluweb.github.io/precision-sm/tags/hepdata.xml</loc>
+  <lastmod>2022-05-07T20:12:00Z</lastmod>
  </sitemap>
 </sitemapindex>

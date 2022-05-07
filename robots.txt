@@ -1,4 +1,4 @@
-Sitemap: https://precision-sm-test.github.io/sitemapindex.xml
+Sitemap: https://aluweb.github.io/precision-sm/sitemapindex.xml
 
 User-Agent: *
-Host: precision-sm-test.github.io
+Host: aluweb.github.io
