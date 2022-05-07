@@ -20,7 +20,7 @@ BLOG_AUTHOR = "PrecisionSM Group"  # (translatable)
 BLOG_TITLE = "PrecisionSM"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://precision-sm-test.github.io/"
+SITE_URL = "https://aluweb.github.io/precision-sm/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://precision-sm.github.io/"
@@ -140,16 +140,6 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
-# NAVIGATION_LINKS = {
-#     DEFAULT_LANG: (
-#         ("/index.html", "Home"),
-#         ("/about/index.html", "About"),
-#         ("/archive.html", "Archives"),
-#         ("/categories/index.html", "Tags"),
-#         ("/rss.xml", "RSS feed"),
-#     ),
-# }
-
 NAVIGATION_LINKS = {
   DEFAULT_LANG: (
      (
@@ -263,37 +253,24 @@ THEME_CONFIG = {
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-# POSTS = (
-#     ("posts/*.rst", "posts", "post.tmpl"),
-#     ("posts/*.md", "posts", "post.tmpl"),
-#     ("posts/*.txt", "posts", "post.tmpl"),
-#     ("posts/*.html", "posts", "post.tmpl"),
-#     ("posts/*.adoc", "posts", "post.tmpl"),
-#     ("posts/*.ipynb", "posts", "post.tmpl"),
-# )
-# PAGES = (
-#     ("pages/*.rst", "", "page.tmpl"),
-#     ("pages/*.md", "", "page.tmpl"),
-#     ("pages/*.txt", "", "page.tmpl"),
-#     ("pages/*.html", "", "page.tmpl"),
-#     ("pages/*.adoc", "", "page.tmpl"),
-#     ("pages/*.ipynb", "", "page.tmpl"),
-# )
-
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.adoc", "posts", "post.tmpl"),
     ("posts/*.ipynb", "posts", "post_ipynb.tmpl"),
 )
+
 PAGES = (
     ("pages/*.rst", "", "page.tmpl"),
     ("pages/*.md", "", "page.tmpl"),
     ("pages/*.txt", "", "page.tmpl"),
     ("pages/*.html", "", "page.tmpl"),
+    ("pages/*.adoc", "", "page.tmpl"),
     ("pages/*.ipynb", "", "post_ipynb.tmpl"),
 )
+
 # And to avoid a conflict because blogs try to generate /index.html
 INDEX_PATH = "posts"
 
@@ -379,6 +356,14 @@ COMPILERS = {
     # "pandoc": ['.rst', '.md', '.txt'],
     "asciidoc": ('.adoc',),
 }
+
+# You can choose what command to use for processing.
+# For example, you can replace asciidoc with asciidoctor
+# Or use the full path to the program.
+# ASCIIDOC_BINARY = "asciidoc"
+
+# Specify options to the asciidoc compiler (as a string).
+# ASCIIDOC_OPTIONS = ""
 
 # Enable reST directives that insert the contents of external files such
 # as "include" and "raw." This maps directly to the docutils file_insertion_enabled
@@ -476,7 +461,7 @@ TAG_PATH = "tags"
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page and posts.
 # Tag pages will still be generated.
-HIDDEN_TAGS = ['mathjax']
+# HIDDEN_TAGS = ['mathjax']
 
 # Only include tags on the tag list/overview page if there are at least
 # TAGLIST_MINIMUM_POSTS number of posts or more with every tag. Every tag
@@ -551,7 +536,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # If you do not want to display a category publicly, you can mark it as hidden.
 # The category will not be displayed on the category list page.
 # Category pages will still be generated.
-HIDDEN_CATEGORIES = []
+# HIDDEN_CATEGORIES = []
 
 # A list of dictionaries specifying categories which translate to each other.
 # Format: a list of dicts {language: translation, language2: translation2, …}
@@ -1109,14 +1094,13 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, intensedebate, isso, muut, commento, utterances
 # You can leave this option blank to disable comments.
-# COMMENT_SYSTEM = "disqus"
 COMMENT_SYSTEM = ""
 
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = ""
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
@@ -1183,9 +1167,10 @@ MathJax.Hub.Config({
         displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
         processEscapes: true
     },
-    displayAlign: 'center', // Change this to 'left' if you want left-aligned equations.
+    displayAlign: 'left', // can be 'left' or 'center' eq. align
     "HTML-CSS": {
-        styles: {'.MathJax_Display': {"margin": 0}}
+        styles: {'.MathJax_Display': {"margin": 0}},
+        // preferredFont: "STIX",
     }
 });
 </script>
@@ -1340,6 +1325,7 @@ COPY_SOURCES = False
 # </form>
 # <!-- End of custom search -->
 # """ % SITE_URL
+
 SEARCH_FORM = """
 <!-- Google custom search -->
 <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
@@ -1523,3 +1509,63 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+# The folder relative to OUTPUT_FOLDER in which the rendered formulae are stored.
+# Defaults to /formula/.
+LATEX_FORMULA_FOLDER = "formula"
+
+# Whether to store the rendered formulae as images or to insert them with data URIs.
+# Warning: data URIs can seriously blow up the generated HTML, especially if you
+# use may formulae or repeatingly the same one!
+LATEX_FORMULA_AS_DATAURI = False
+
+# The output format used for the images. Possible values:
+#   * "png" for PNG images with transparency;
+#   * "svg" for SVG vector graphics;
+#   * "svgz" for SVG vector graphics compressed with gzip.
+# Note that depending on your web server's configuration, you might experience
+# problems with .svgz files as the web server might treat them similar to .svg.gz
+# files and deliver them claiming that they are .svg files.
+LATEX_FORMULA_OUTPUT_FORMAT = 'svgz'
+
+# Allows to include packages and define things in the preamble of the .tex files
+# used to render the formulae. When generating a temporary .tex file, the plugin
+# looks for the contents of the following keys:
+#   * "": will always be included;
+#   * "tikz": will be included when formula_type is ("tikzpicture", ...);
+#   * "pstricks": will be included when formula_type is ("pstricks", ...);
+#   * "xy": will be included if the formula contains "\xymatrix";
+#   * "pdflatex": will be included if the .tex file is processed by pdflatex
+#     to convert it to a .pdf file;
+#   * "latex": will be included if the .tex file is processed by latex to convert
+#     it to a .dvi file.
+# The default is {}, which means no preamble additions. The following example
+# shows how to define some macros for all formulae:
+LATEX_FORMULA_ADDITIONAL_PREAMBLE = {
+    "": r"""
+\usepackage{amssymb}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}"""
+}
+# Determines how the formulae are rendered. Possibilities:
+#  - "latex_formula_image_renderer": renders formulae as graphics and includes them.
+#  - "latex_formula_mathjax": inserts MathJax code.
+LATEX_FORMULA_RENDERER = "latex_formula_image_renderer"
+
+# When "latex_formula_image_renderer" is selected as the formula renderer,
+# the formulae colors and scale can be set here:
+#
+# The color must be given as an RGB triple with components in range [0, 1].
+# Here, (0, 0, 0) is black and (1, 1, 1) is white.
+LATEX_FORMULA_COLOR = (0., 0., 0.)
+#
+# The formula scale determines the effective size of the formulae.
+# Check what looks good with your theme's main font.
+LATEX_FORMULA_SCALE = 1.25
+#
+# The engine determines the TeX engine used. Must be one of "latex", "luatex" and "xetex".
+# Note that "luatex" does not support pstricks formulae.
+LATEX_FORMULA_ENGINE = "latex"
